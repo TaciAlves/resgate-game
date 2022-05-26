@@ -1,6 +1,6 @@
 @font-face {
     font-family: Titulo;
-    src: url(/fontes/ANODETONOONE.TTF);
+    src: url(ANODETONOONE.TTF);
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
 }
 
 body {
-    background-image: url(/imgs/fundo.jpg);
+    background-image: url(fundo.jpg);
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -28,7 +28,7 @@ body {
 #fundoGame {
     width: 950px;
     height: 483px;
-    background-image: url(/imgs/fundo_game.jpg);
+    background-image: url(fundo_game.jpg);
     border-color: #FFF;
     border-style: solid;
     background-position: center;
@@ -41,7 +41,7 @@ body {
     position: absolute;
     left: 8px;
     top: 98px;
-    background-image: url(/imgs/apache.png);
+    background-image: url(apache.png);
 
 }
 
@@ -51,7 +51,7 @@ body {
     position: absolute;
     left: 689px;
     top: 140px;
-    background-image: url(/imgs/inimigo1.png);
+    background-image: url(inimigo1.png);
 
 }
 
@@ -61,7 +61,7 @@ body {
     position: absolute;
     left: 775px;
     top: 340px;
-    background-image: url(/imgs/inimigo2.png);
+    background-image: url(inimigo2.png);
 }
 
 #amigo {
@@ -70,7 +70,7 @@ body {
     position: absolute;
     left: 10px;
     top: 358px;
-    background-image: url(/imgs/amigo.png);
+    background-image: url(amigo.png);
 }
 
 #inicio {
@@ -88,7 +88,7 @@ body {
 }
 
 .anima1 {
-    background-image: url(/imgs/helicoptero.png);
+    background-image: url(helicoptero.png);
     animation: play .5s steps(2) infinite;
     /*prefixos proprietarios dos browsers*/
     -webkit-animation: play .5s steps(2) infinite;
@@ -153,7 +153,7 @@ body {
 }
 
 .anima2 {
-    background-image: url(/imgs/inimigo1.png);
+    background-image: url(inimigo1.png);
     animation: play .5s steps(2) infinite;
     -webkit-animation: play .5s steps(2) infinite;
     -moz-animation: play .5s steps(2) infinite;
@@ -163,7 +163,7 @@ body {
 
 
 .anima3 {
-    background-image: url(/imgs/amigo.png);
+    background-image: url(amigo.png);
     animation: play2 .9s steps(12) infinite;
     -webkit-animation: play2 .9s steps(12) infinite;
     -moz-animation: play2 .9s steps(12) infinite;
@@ -225,7 +225,7 @@ body {
     width: 50px;
     height: 8px;
     position: absolute;
-    background-image: url(/imgs/disparo.png);
+    background-image: url(disparo.png);
 }
 
 #explosao1 {
@@ -251,7 +251,7 @@ body {
 .anima4 {
     width: 44px;
     height: 51px;
-    background-image: url(/imgs/amigo_morte.png);
+    background-image: url(amigo_morte.png);
     animation: play3 .5s steps(7) infinite;
     -webkit-animation: play3 .5s steps(7) infinite;
     -moz-animation: play3 .5s steps(7) infinite;
